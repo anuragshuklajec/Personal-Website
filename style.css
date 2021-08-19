@@ -16,7 +16,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: 900;
-    margin-bottom: 0%;
+    margin-bottom: 1rem;
     color: #489292;
 }
 
@@ -35,8 +35,8 @@ h3{
     top: 10%;
     left: 65%;
     width: auto;
-    height: 3.5rem;
-    
+    height: 2.5rem;
+    z-index: -1;
     
 
 }
@@ -45,7 +45,8 @@ h3{
     top: 65%;
     left: 18%;
     width: auto;
-    height: 3.5rem;
+    height: 4rem;
+    z-index: -1;
     
 }
 
@@ -59,7 +60,9 @@ h3{
 .top-container{
     background-color: #E4F9F5;
     position: relative;
+    width: 100%;
     padding-top: 7%;
+    z-index: -2;
 
 }
 
